@@ -1,0 +1,26 @@
+{
+  "name": "generator-dart",
+  "keywords": [
+    "yeoman-generator",
+    "dart"
+  ],
+  "version": "0.1.0",
+  "description": "Generator to generate a basic Dart project.",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register -R spec"
+  },
+  "author": "Daniel Perez",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "^1.6.0",
+    "yeoman-generator": "^0.17.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "expect.js": "^0.3.1",
+    "fs-extra": "^0.9.1",
+    "mocha": "^1.20.0",
+    "tmp": "0.0.23"
+  }
+}

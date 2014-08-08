@@ -1,0 +1,6 @@
+name: <%= _.slugify(project.name) %>
+description: <%= project.description %>
+version: <%= project.version %>
+author: <%= project.author %> <<%= project.email %>>
+dependencies:
+  browser: any
