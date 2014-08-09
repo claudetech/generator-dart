@@ -10,6 +10,14 @@
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script/register -R spec"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claudetech/generator-dart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/claudetech/generator-dart/issues"
+  },
+  "homepage": "https://github.com/claudetech/generator-dart",
   "author": "Daniel Perez",
   "license": "MIT",
   "dependencies": {
